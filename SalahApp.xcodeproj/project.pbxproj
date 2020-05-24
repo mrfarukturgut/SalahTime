@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		EB30A1E72379A29600986004 /* SalahAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB30A1E62379A29600986004 /* SalahAppTests.swift */; };
 		EB30A1F22379A29600986004 /* SalahAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB30A1F12379A29600986004 /* SalahAppUITests.swift */; };
 		EB30A200237AEF8000986004 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB30A1FF237AEF8000986004 /* SettingsView.swift */; };
+		EB6C62162478E07000ACE447 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6C62152478E07000ACE447 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		EB30A1F12379A29600986004 /* SalahAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalahAppUITests.swift; sourceTree = "<group>"; };
 		EB30A1F32379A29600986004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB30A1FF237AEF8000986004 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EB6C62152478E07000ACE447 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +114,6 @@
 				C584C0511969879952DA6CD4 /* Pods-SalahAppTests.debug.xcconfig */,
 				A7673520566E93744218C45D /* Pods-SalahAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +150,7 @@
 				EB30A1DC2379A29600986004 /* Info.plist */,
 				EB30A1DD2379A29600986004 /* SalahApp.entitlements */,
 				EB30A1D62379A29600986004 /* Preview Content */,
+				EB6C62152478E07000ACE447 /* API.swift */,
 			);
 			path = SalahApp;
 			sourceTree = "<group>";
@@ -420,6 +422,7 @@
 			files = (
 				EB30A200237AEF8000986004 /* SettingsView.swift in Sources */,
 				EB30A1D32379A29400986004 /* ContentView.swift in Sources */,
+				EB6C62162478E07000ACE447 /* API.swift in Sources */,
 				EB30A1D12379A29400986004 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

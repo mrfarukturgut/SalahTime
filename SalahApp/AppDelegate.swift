@@ -31,10 +31,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         windowController.window = window
         
         
+        PrayerTimesManager.shared.makeRequest(.prayerTimeMethods) { (result: PrayerMethodsResponse) in
+            print(result.data.first?.name)
+        }
+        
         let mainMenu = NSMenu()
         
         let contentView = NSHostingController(rootView: PrayerView())
-        contentView.view.frame = NSRect(x: 0, y: 0, width: 200, height: 50)
+        contentView.view.frame = NSRect(x: 0, y: 0, width: 100, height: 50)
         let prayerView = NSMenuItem()
         prayerView.view = contentView.view
         
